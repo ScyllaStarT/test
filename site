@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jean-Baptiste Garcin, Maître enseignant Reiki et Magnétiseur à Calas Cabries, propose des séances de bien-être énergétiques pour adultes, enfants, et animaux. Professionnalisme, rigueur, écoute, et expertise en techniques japonaises (Reiki Usui).">
+    <title>Jean-Baptiste Garcin - Maître enseignant Reiki et Magnétiseur à Calas Cabries</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header, .section, .parallax {
+            width: 100%;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .header {
+            background: #FFC300;
+            color: #fff;
+        }
+        .highlight {
+            color: #000; /* Couleur noire pour la phrase spécifiée */
+        }
+        .parallax {
+            position: relative;
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            height: 200px;
+            background-attachment: scroll;
+            overflow: hidden; /* Assure que le contenu ne déborde pas */
+        }
+        .parallax1 { background-image: url('transfert de reiki.png'); }
+        .parallax2 { background-image: url('energie bien etre jb garcin.png'); }
+        .parallax3 { background-image: url('garcin jean-baptiste reiki.png'); }
+        .button {
+            display: inline-block;
+            margin: 20px;
+            padding: 15px 25px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .reviews {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .review {
+            background: #f4f4f4;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+        }
+    </style>
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', event => {
+            if (event.key === 'F12' || 
+                (event.ctrlKey && event.shiftKey && event.key === 'I') || 
+                (event.ctrlKey && event.shiftKey && event.key === 'J') || 
+                (event.ctrlKey && event.key === 'U')) {
+                event.preventDefault();
+            }
+        });
+    </script>
+</head>
+<body>
+
+    <div class="header">
+        <h1 class="highlight">La période que vous traversez nécessite plus de ressources physiques ou mentales ?</h1>
+        <h2>Trouvez l'énergie nécessaire pour votre bien-être, en harmonie avec l'univers.</h2>
+        <p>Magnétisme et techniques japonaises (Reiki Usui)</p>
+        <a href="https://koalendar.com/u/8iD4JSpZYQczFQXObYikWWjDh4i1" class="button">Prendre Rendez-vous</a>
+    </div>
+
+    <div class="parallax parallax1"></div>
+
+    <div class="section">
+        <h2>Séances de bien-être énergétiques pour adultes et enfants</h2>
+        <p>Je propose des séances de bien-être énergétiques adaptées aux adultes et aux enfants pour les aider à traverser des situations douloureuses ou éprouvantes mentalement, et à se préparer pour des événements nécessitant bien-être et énergie.</p>
+        <a href="https://koalendar.com/u/8iD4JSpZYQczFQXObYikWWjDh4i1" class="button">Prendre Rendez-vous</a>
+    </div>
+
+    <div class="parallax parallax2"></div>
+
+    <div class="section">
+        <h2>Séances de Reiki pour les animaux</h2>
+        <p>En tant qu'expert en Reiki équestre, j'offre des séances spécifiques pour les animaux, notamment les chevaux. Je me déplace également pour effectuer les séances directement sur place.</p>
+        <a href="https://koalendar.com/u/8iD4JSpZYQczFQXObYikWWjDh4i1" class="button">Prendre Rendez-vous</a>
+    </div>
+
+    <div class="parallax parallax3"></div>
+
+    <div class="section">
+        <h2>À propos de moi</h2>
+        <p>Je suis Jean-Baptiste Garcin, Maître enseignant Reiki et Magnétiseur. J'accueille des personnes de tous âges pour des séances personnalisées de bien-être énergétique. Mon professionnalisme, ma rigueur et mon écoute sont à votre service pour vous aider à trouver l'harmonie et l'énergie dont vous avez besoin.</p>
+        <a href="https://koalendar.com/u/8iD4JSpZYQczFQXObYikWWjDh4i1" class="button">Prendre Rendez-vous</a>
+    </div>
+
+    <div class="section">
+        <h2>Avis Google</h2>
+        <div class="reviews">
+            <div class="review">
+                <p>"Jean-Baptiste est un professionnel exceptionnel. Ses séances m'ont beaucoup aidé. Je le recommande vivement !" - Marie</p>
+            </div>
+            <div class="review">
+                <p>"Une expérience incroyable, tant pour moi que pour mon cheval. Jean-Baptiste a su nous apporter le bien-être nécessaire." - Paul</p>
+            </div>
+            <div class="review">
+                <p>"Très à l'écoute et compétent, je ressors de chaque séance revitalisé." - Sophie</p>
+            </div>
+        </div>
+        <a href="https://koalendar.com/u/8iD4JSpZYQczFQXObYikWWjDh4i1" class="button">Prendre Rendez-vous</a>
+    </div>
+
+    <!-- Intégration du badge Google Avis clients -->
+    <div style="text-align: center; margin-top: 20px;">
+        <g:ratingbadge merchant_id="16787128871582836553"></g:ratingbadge>
+    </div>
+
+    <!-- Chargement du script Google Avis clients -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+</body>
+</html>
